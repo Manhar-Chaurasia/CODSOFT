@@ -1,0 +1,909 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    box-shadow: 2px 2px 15px #a5cbf4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.n-left {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.n-left img {
+    border-radius: 100%;
+}
+
+.n-right ul {
+    display: flex;
+    margin-right: 5rem;
+}
+
+.n-right ul li {
+    list-style-type: none;
+    margin: auto 1rem;
+}
+
+.n-right ul li a {
+    text-decoration: none;
+}
+
+.n-right ul li a:hover {
+    color: #4e6df8;
+    font-weight: bold;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 3rem;
+}
+
+.h-left {
+    margin: auto 7rem auto 3rem;
+}
+
+.h-left h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.h-right img {
+    height: 20rem;
+    width: 18.5rem;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 3px #a5cbf4;
+}
+
+/* About section */
+
+.inner-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.my-about {
+    margin: 1rem 3rem 6rem 3rem;
+}
+
+.inner-about img {
+    height: 25rem;
+    width: 31.5rem;
+}
+
+.my-about h1 {
+    margin: auto 2rem auto 8.5rem;
+    font-size: 2rem;
+}
+
+.a-right p {
+    margin: 1rem 0;
+}
+
+/* Skills section */
+
+.inner-skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 0 4rem;
+}
+
+.my-skills {
+    margin: 50px 50px;
+}
+
+.inner-skills img {
+    height: 25rem;
+    width: 31.5rem;
+}
+
+.s-left {
+    margin-left: 5rem;
+}
+
+.s-left .fa-bootstrap {
+    font-size: 3.5rem;
+}
+
+.my-skills h1 {
+    margin: auto 30px auto 8.5rem;
+    font-size: 2rem;
+}
+
+.align-bars {
+    display: flex;
+    align-items: center;
+}
+
+.align-bars i {
+    font-size: 4rem;
+}
+
+.bar {
+    height: 1rem;
+    width: 20rem;
+    background-color: #EEEEEE;
+    margin: 30px 30px;
+    border-radius: 20px;
+}
+
+.align-bars .track1 {
+    height: 1rem;
+    width: 19rem;
+    background-color: #a5cbf4;
+    border-radius: 20px;
+}
+
+.align-bars .track2 {
+    height: 1rem;
+    width: 18rem;
+    background-color: #a5cbf4;
+    border-radius: 20px;
+}
+
+.align-bars .track3 {
+    height: 1rem;
+    width: 18rem;
+    background-color: #a5cbf4;
+    border-radius: 20px;
+}
+
+.align-bars .track4 {
+    height: 1rem;
+    width: 17rem;
+    background-color: #a5cbf4;
+    border-radius: 20px;
+}
+
+.align-bars .track5 {
+    height: 1rem;
+    width: 18rem;
+    background-color: #a5cbf4;
+    border-radius: 20px;
+}
+
+/* Project section */
+
+.my-projects {
+    margin: 6rem 3rem;
+}
+
+.my-projects h1 {
+    margin: auto 2rem auto 8.5rem;
+    font-size: 2rem;
+}
+
+.inner-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.project {
+    height: 9rem;
+    width: 20rem;
+    border-radius: 20px;
+    margin: 2rem 0;
+    padding: 1.3rem;
+    background-color: #e6f2fe;
+    box-shadow: 5px 7px 10px gray;
+}
+
+.p-left p,
+.p-right p {
+    font-size: 0.8rem;
+    margin: 0.8rem 0;
+}
+
+/* Resume section */
+
+.my-resume {
+    margin: 6rem 3rem;
+}
+
+.my-resume h1 {
+    margin: auto 2rem auto 8.5rem;
+    font-size: 2rem;
+}
+
+.inner-resume {
+    display: flex;
+    justify-content: center;
+}
+
+.r-left {
+    margin-top: 2rem;
+    flex-basis: 30rem;
+}
+
+.r-right {
+    margin-top: 2rem;
+}
+
+.resume-btn {
+    margin: 50px 0 0 0;
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c7e3ff;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0 0 14px #AEE2FF;
+}
+
+.resume-btn:hover {
+    transition: ease, 0.7s;
+    box-shadow: 0 0 14px gray;
+    scale: 1.1;
+}
+
+.r-right img {
+    height: 25.5rem;
+    width: 25rem;
+    ;
+    margin-left: 2rem;
+    border-radius: 20px;
+}
+
+/* Contact section */
+
+.my-contact {
+    margin: 6rem 3rem;
+}
+
+.my-contact h1 {
+    margin: auto 2rem auto 8.5rem;
+    font-size: 2rem;
+}
+
+.inner-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.c-left {
+    margin: 2rem 0;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info i {
+    margin: 2rem;
+    background-color: #e6f2fe;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50px;
+}
+
+.c-right {
+    margin-top: 3rem;
+    background-color: #e6f2fe;
+    padding: 1rem;
+    height: 55px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px gray;
+    font-weight: bold;
+}
+
+/* Footer section */
+
+.my-footer {
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+/* Media queries */
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+    /* Navbar section */
+    .n-left {
+        margin-left: 1rem;
+    }
+
+    .n-left h3 {
+        font-size: 0.9rem;
+    }
+
+    .n-right ul {
+        margin-right: 1.5rem;
+    }
+
+    .n-right ul li {
+        margin: 0 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    /* Hero section */
+
+    .h-left {
+        margin: auto 4rem auto 4rem;
+    }
+
+    .h-left h1 {
+        font-size: 1.8rem;
+    }
+
+    .h-left p {
+        font-size: 0.9rem;
+    }
+
+    .h-right img {
+        height: 15rem;
+        width: 13.5rem;
+    }
+
+    /* about section */
+
+    .inner-about img {
+        height: 19rem;
+        width: 23rem;
+    }
+
+    .my-about h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .a-right p {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    /* skills section */
+
+    .my-skills h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .align-bars i {
+        font-size: 2rem;
+    }
+
+    .bar {
+        height: 0.9rem;
+        width: 15rem;
+        margin: 25px 20px;
+    }
+
+    .align-bars .track1 {
+        height: 0.9rem;
+        width: 14rem;
+    }
+
+    .align-bars .track2 {
+        height: 0.9rem;
+        width: 13rem;
+    }
+
+    .align-bars .track3 {
+        height: 0.9rem;
+        width: 14rem;
+    }
+
+    .align-bars .track4 {
+        height: 0.9rem;
+        width: 12rem;
+    }
+
+    .align-bars .track5 {
+        height: 0.9rem;
+        width: 12rem;
+    }
+
+    .s-left .fa-bootstrap {
+        font-size: 1.8rem;
+    }
+
+    .inner-skills img {
+        height: 20rem;
+        width: 21.5rem;
+    }
+
+    /* project section */
+
+    .my-projects h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .project {
+        height: 8rem;
+        width: 17rem;
+        padding: 1rem;
+    }
+
+    .p-left p,
+    .p-right p {
+        font-size: 0.7rem;
+        margin: 0.5rem 0;
+    }
+
+    .p-right .project:nth-child(2) h3 {
+        font-size: 1rem;
+
+    }
+
+    /* resume section */
+
+    .my-resume h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .inner-resume {
+        margin-left: 2rem;
+    }
+
+    .r-left p {
+        font-size: 0.9rem;
+    }
+
+    .r-right img {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .my-contact h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .resume-btn {
+        padding: 0.5rem 0.9rem;
+    }
+
+    .resume-btn span {
+        font-size: 0.8rem;
+    }
+
+    /* contact section */
+
+    .info i {
+        margin: 1rem 2rem;
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+
+    .info p {
+        font-size: 0.9rem;
+    }
+
+    .c-right {
+        margin-top: 3rem;
+        padding: 0.9rem;
+        height: 3rem;
+        width: 14rem;
+    }
+
+    .c-right .aero-box p{
+        font-size: 0.8rem;
+    }
+
+    /* footer section */
+
+    .my-footer h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    /* Navbar section */
+
+    .container {
+        justify-content: center;
+    }
+
+    .n-left {
+        margin-left: 0;
+    }
+
+    .n-right {
+        display: none;
+    }
+
+
+    /* Hero section */
+
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    .h-left {
+        margin: auto 4rem 3rem 4rem;
+    }
+
+    .h-left h1 {
+        font-size: 1.8rem;
+    }
+
+    .h-left p {
+        font-size: 0.9rem;
+    }
+
+    .h-right img {
+        height: 15rem;
+        width: 13.5rem;
+    }
+
+    /* about section */
+
+    .inner-about {
+        flex-wrap: wrap;
+    }
+
+    .inner-about img {
+        height: 19rem;
+        width: 23rem;
+    }
+
+    .my-about h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .a-right p {
+        font-size: 0.9rem;
+        margin: 1rem 0;
+    }
+
+    /* skills section */
+
+    .inner-skills {
+        flex-wrap: wrap;
+    }
+
+    .s-left {
+        margin-left: 0;
+    }
+
+    .my-skills h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .align-bars i {
+        font-size: 2rem;
+    }
+
+    .bar {
+        height: 0.9rem;
+        width: 15rem;
+        margin: 25px 20px;
+    }
+
+    .align-bars .track1 {
+        height: 0.9rem;
+        width: 14rem;
+    }
+
+    .align-bars .track2 {
+        height: 0.9rem;
+        width: 13rem;
+    }
+
+    .align-bars .track3 {
+        height: 0.9rem;
+        width: 14rem;
+    }
+
+    .align-bars .track4 {
+        height: 0.9rem;
+        width: 12rem;
+    }
+
+    .align-bars .track5 {
+        height: 0.9rem;
+        width: 12rem;
+    }
+
+    .s-left .fa-bootstrap {
+        font-size: 1.8rem;
+    }
+
+    .inner-skills img {
+        height: 20rem;
+        width: 21.5rem;
+    }
+
+    /* project section */
+
+    .my-projects h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .project {
+        height: 8rem;
+        width: 17rem;
+        padding: 1rem;
+    }
+
+    .p-left p,
+    .p-right p {
+        font-size: 0.7rem;
+        margin: 0.5rem 0;
+    }
+
+    .p-right .project:nth-child(2) h3 {
+        font-size: 1rem;
+
+    }
+
+    /* resume section */
+
+    .my-resume h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .inner-resume {
+        margin: 0 2rem 0 2rem;
+        flex-wrap: wrap;
+    }
+
+    .r-left p {
+        font-size: 0.9rem;
+    }
+
+    .r-right img {
+        height: 18rem;
+        width: 18rem;
+    }
+
+    .my-contact h1 {
+        margin: auto 2rem auto 4rem;
+    }
+
+    .resume-btn {
+        padding: 0.5rem 0.9rem;
+    }
+
+    .resume-btn span {
+        font-size: 0.8rem;
+    }
+
+    /* contact section */
+
+    .info i {
+        margin: 1rem 2rem;
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+
+    .info p {
+        font-size: 0.9rem;
+    }
+
+    .c-right {
+        display: none;
+    }
+
+    /* footer section */
+
+    .my-footer h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    /* Navbar section */
+
+    .n-left {
+        margin-left: 3rem;
+    }
+
+    .n-left {
+        font-size: 0.8rem;
+    }
+
+    .n-right {
+        display: none;
+    }
+
+
+    /* Hero section */
+
+    .hero {
+        flex-wrap: wrap;
+    }
+
+    .h-left {
+        margin: auto 0 3rem 1.5rem;
+    }
+
+    .h-left h1 {
+        font-size: 1.8rem;
+    }
+
+    .h-left p {
+        font-size: 0.8rem;
+    }
+
+    .h-right img {
+        height: 13rem;
+        width: 11.5rem;
+    }
+
+    /* about section */
+
+    .inner-about {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+
+    .inner-about img {
+        height: 17rem;
+        width: 19rem;
+    }
+
+    .my-about h1 {
+        margin: auto 2rem auto 1rem;
+    }
+
+    .a-right p {
+        font-size: 0.8rem;
+        margin: 1rem 0;
+    }
+
+    /* skills section */
+
+    .inner-skills {
+        flex-wrap: wrap;
+    }
+
+    .s-left {
+        margin-left: 0;
+    }
+
+    .my-skills h1 {
+        margin: auto 2rem auto 1rem;
+    }
+
+    .align-bars i {
+        font-size: 2rem;
+    }
+
+    .bar {
+        height: 0.9rem;
+        width: 12rem;
+        margin: 25px 15px;
+    }
+
+    .align-bars .track1 {
+        height: 0.9rem;
+        width: 11rem;
+    }
+
+    .align-bars .track2 {
+        height: 0.9rem;
+        width: 10rem;
+    }
+
+    .align-bars .track3 {
+        height: 0.9rem;
+        width: 11rem;
+    }
+
+    .align-bars .track4 {
+        height: 0.9rem;
+        width: 9rem;
+    }
+
+    .align-bars .track5 {
+        height: 0.9rem;
+        width: 10rem;
+    }
+
+    .s-left .fa-bootstrap {
+        font-size: 1.8rem;
+    }
+
+    .inner-skills img {
+        height: 19.5rem;
+        width: 19rem;
+    }
+
+    /* project section */
+
+    .my-projects h1 {
+        margin: auto 2rem auto 1rem;
+    }
+
+    .project {
+        height: 7rem;
+        width: 15rem;
+        padding: 1rem;
+    }
+
+    .p-left p,
+    .p-right p {
+        font-size: 0.6rem;
+        margin: 0.7rem 0;
+    }
+
+    .p-right,
+    .p-left .project h3 {
+        font-size: 0.8rem;
+    }
+
+    .p-right .project:nth-child(2) h3 {
+        font-size: 0.7rem;
+    }
+
+    /* resume section */
+
+    .my-resume h1 {
+        margin: auto 2rem auto 1rem;
+    }
+
+    .inner-resume {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .r-left p {
+        font-size: 0.8rem;
+    }
+
+    .r-right img {
+        display: none;
+    }
+
+
+    .resume-btn {
+        padding: 0.5rem 0.9rem;
+    }
+
+    .resume-btn span {
+        font-size: 0.8rem;
+    }
+
+    /* contact section */
+
+    .my-contact h1 {
+        margin: auto 2rem auto 1rem;
+    }
+
+    .info i {
+        margin: 1rem 1rem;
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .info p {
+        font-size: 0.7rem;
+    }
+
+    .c-right {
+        display: none;
+    }
+
+    /* footer section */
+
+    .my-footer h3 {
+        font-size: 1rem;
+    }
+}

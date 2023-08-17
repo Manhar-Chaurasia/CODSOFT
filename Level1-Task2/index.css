@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Updated styles for .main container */
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background: linear-gradient(to top left, #579BB1, #C780FA);
+}
+
+.my-todo {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 23px #7F669D;
+    border-radius: 20px;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.my-todo::-webkit-scrollbar {
+    width: 0;
+}
+
+.my-todo::-webkit-scrollbar-track {}
+
+.my-todo::-webkit-scrollbar-thumb {}
+
+/* I'm using this for firefox browser as some css styling are not supported in it (line: 42-45) */
+.my-todo {
+    scrollbar-color: #7F669D #f1f1f1;
+    scrollbar-width: thin;
+}
+
+.main h1 {
+    margin: 40px auto;
+}
+
+.inp {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inp input {
+    width: 80%;
+    height: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    outline: 0;
+    border: 2px solid #7F669D;
+    background: inherit;
+}
+
+.inp i {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 14px 1px #7F669D;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.each-row {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.each-row span {
+    font-size: 1.1rem;
+}
+
+.each-row .m-icons .inner-icons {
+    margin: 5px;
+    padding: 10px 12px;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #7F669D;
+
+}
